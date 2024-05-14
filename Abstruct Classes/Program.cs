@@ -30,7 +30,6 @@ class Program
         person.age = 20;
         Console.WriteLine(person.name,person.age);
 
-
         student.rollNo = 15;
         student.fees = 3000;
         student.printdetails("Ali", 20);
