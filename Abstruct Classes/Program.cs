@@ -25,7 +25,7 @@ class Program
     public static void Main()
     {
         Student student = new Student();
-        Person person = new Student();
+        Person person = new Student(); // abstract he isliye Person ka object nhi banega tu child class ke through banwa rhe
         person.name = "Noman";
         person.age = 20;
         Console.WriteLine(person.name,person.age);
